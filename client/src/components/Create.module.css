@@ -1,0 +1,48 @@
+.space {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+  background-color: #252526;
+  padding: 50px;
+}
+
+.card ul{
+  list-style:none;
+}
+
+.card textarea{
+  height: 200px;
+  width: 500px;
+  background-color: #303030;
+  border: none;
+  color: #bebebe;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.form div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form label {
+  background-color: #303030;
+  display: block;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

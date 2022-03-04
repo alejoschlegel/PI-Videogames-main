@@ -1,0 +1,36 @@
+.container {
+    background-color: #4646AA;
+    background-image: url("../landingPageWallpaper.png");
+    background-size:90%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 450px;
+    height: 200px;
+    padding-left: 34%;
+    padding-top: 20%;
+}
+
+.card p {
+    background: none;
+    color: #bebebe;
+    text-decoration: none;
+    text-align: start;
+    font-size: 15px;
+}
+
+.card button {
+    background: none;
+    color: #bebebe;
+    cursor: pointer;
+    font-size: 13px;
+}
+.card button:hover {
+    color: #F900B9;
+}

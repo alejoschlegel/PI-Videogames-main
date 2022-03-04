@@ -1,0 +1,40 @@
+.body {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.container {
+  padding: 25px;
+  background-color: #33333383;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  align-items: center;
+  gap: 25px;
+  text-align: center;
+}
+.container img{
+  width: 300px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100px 300px;
+}
+.grid div{
+  display: flex;
+  align-items: center;
+  border: 1px solid #bebebe;
+  padding: 10px;
+}
+.grid div:hover{
+  border: 2px solid #bebebe;
+}
+
+.error {
+  padding: 2%;
+  font-size: 30px;
+}

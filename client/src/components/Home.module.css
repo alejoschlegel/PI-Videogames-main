@@ -1,0 +1,62 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 25px;
+    padding-left: 9%;
+}
+
+.text {
+    color: #bebebe;
+    text-decoration:none;
+}
+
+.bars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 25px;
+}
+
+select {
+    background: #333333;
+    border: none;
+    height: 30px;
+    width: 200px;
+    color: #bebebe;
+    text-decoration:none;
+}
+
+input {
+    background: #333333;
+    border: none;
+    height: 30px;
+    width: 200px;
+    color: #bebebe;
+    text-decoration:none;
+}
+
+button {
+    background: #bebebe;
+    border: none;
+    height: 30px;
+    color: #333333;
+    text-decoration:none;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 30px;
+}
+.loading img{
+    height: 100px;
+    width: auto;
+}
+
+    
